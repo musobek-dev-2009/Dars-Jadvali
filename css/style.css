@@ -1,9 +1,11 @@
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body styling */
 body {
     background-image: url('../img/windows-11.png');
     background-size: cover;
@@ -17,6 +19,7 @@ body {
     overflow: hidden;
 }
 
+/* Header */
 .name {
     background-color: rgba(0, 0, 0, 0.6);
     color: #ffffff;
@@ -29,6 +32,7 @@ body {
     font-size: 1.5rem;
 }
 
+/* Main container */
 .container {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -42,20 +46,22 @@ body {
     gap: 20px;
 }
 
-.box {
+/* Day blocks */
+.schedule-box {
     background-color: rgb(4, 16, 60, 0.9);
     padding: 15px;
     border-radius: 10px;
 }
 
-.block h3 {
+.day-box h3 {
     color: #e0e0e0;
     margin-bottom: 10px;
     text-align: center;
     font-size: 1.4rem;
 }
 
-.box p {
+/* Day schedule */
+.schedule-box p {
     display: flex;
     justify-content: space-between;
     background-color: rgba(0, 255, 55, 0.3);
@@ -64,11 +70,12 @@ body {
     margin-bottom: 10px;
 }
 
-.box .time {
+.schedule-box .time {
     font-size: 0.9rem;
     color: #dcdcdc;
 }
 
+/* Social network icons */
 .network {
     display: flex;
     gap: 15px;
@@ -86,3 +93,4 @@ body {
 .network img:hover {
     transform: scale(1.2);
 }
+

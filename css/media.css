@@ -7,8 +7,13 @@
         height: 70vh;
     }
 
-    .box p {
+    .schedule-box p {
         font-size: 0.9rem;
+    }
+
+    .network img {
+        width: 40px;
+        height: 40px;
     }
 }
 
@@ -22,12 +27,17 @@
         padding: 15px;
     }
 
-    .box p {
+    .schedule-box p {
         font-size: 0.8rem;
         padding: 8px;
     }
 
-    .block h3 {
+    .day-box h3 {
         font-size: 1.2rem;
+    }
+
+    .network img {
+        width: 35px;
+        height: 35px;
     }
 }
