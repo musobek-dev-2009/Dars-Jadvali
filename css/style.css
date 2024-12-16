@@ -8,8 +8,10 @@
 /* Body styling */
 body {
     background-image: url('../img/windows-11.png');
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
     font-family: "Bebas Neue", sans-serif;
     color: #ffffff;
     display: flex;
